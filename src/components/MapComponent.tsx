@@ -1,11 +1,9 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { MapContainer, TileLayer, useMapEvents, Polygon } from 'react-leaflet';
 import { useState } from 'react';
 
 const DrawPolygon = () => {
   const [points, setPoints] = useState<any>([]);
-  const [polygon, setPolygon] = useState(false);
+  const [, setPolygon] = useState(false);
   const [coordinates, setCoordinates] = useState<string[]>([]);
 
   useMapEvents({
