@@ -1,0 +1,23 @@
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+.leaflet-control-attribution {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  max-width: 100px;
+  padding: 0;
+}
+.coordinates-list {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  width: 100px;
+  height: 20%;
+  background-color: #fff;
+  padding: 10px;
+  z-index: 1000; 
+}
