@@ -22,7 +22,7 @@ ul {
   top: 100px;
   left: 10px;
   width: 100px;
-  height: 250px;
+  height: auto;
   background-color: #fff;
   padding: 10px;
   z-index: 1000; 
